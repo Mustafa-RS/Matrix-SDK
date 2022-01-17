@@ -1,2 +1,0 @@
-QuickFeather Flash Loader Application
-=====================================

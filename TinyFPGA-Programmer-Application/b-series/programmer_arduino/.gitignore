@@ -1,6 +1,0 @@
-# platformio stuff
-platformio.ini
-lib
-.pioenvs
-.piolibdeps
-.travis.yml
