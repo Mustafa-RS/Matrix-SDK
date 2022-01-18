@@ -1,8 +1,8 @@
-QORC SDK
+Matrix SDK
 ========
 
-QuickLogic Open Reconfigurable Computing (QORC) SDK provides components
-needed to get started on the QuickLogic's EOSS3 device and open source
+Matrix SDK provides components
+needed to get started on the RapidSilicon's Matrix device and open source
 development boards such as Quickfeather.
 
 
@@ -13,6 +13,8 @@ Currently, the following boards are supported:
 
 -  `Quickfeather Development
    Kit <https://www.quicklogic.com/products/eos-s3/quickfeather-development-kit/>`__
+-  `SparkFun Thing Plus - EOS S3
+   <https://www.sparkfun.com/products/17273/>`__
 
 Getting started on Quickfeather board
 -------------------------------------
@@ -21,8 +23,8 @@ Easiest way to get started on quickfeather development kit is to build
 and run example application projects included in this SDK on a
 quickfeather development kit.
 
-| Clone this QORC SDK repository using
-| ``git clone --recursive https://github.com/QuickLogic-Corp/qorc-sdk``
+| Clone this Matrix SDK repository using
+| ``git clone --recursive https://github.com/RapidSilicon/Matrix-SDK``
 
 Install the items listed in Pre-requisites section below.
 
@@ -63,19 +65,13 @@ Toolchain
       Examples and illustrations are for example here:
       https://stackabuse.com/how-to-permanently-set-path-in-linux/
 
--  Gateware
-
-   -  QuickLogic Symbiflow: Refer `QuickLogic
-      Symbiflow <https://github.com/QuickLogic-Corp/quicklogic-fpga-toolchain>`__
-      to install the QuickLogic Symbiflow toolchain
-
 Utilities
 ~~~~~~~~~
 
 -  Flash programmer: TinyFPGA programmer
 
    Refer to `TinyFPGA
-   programmer <https://github.com/QuickLogic-Corp/TinyFPGA-Programmer-Application>`__
+   programmer <https://github.com/RapidSilicon/TinyFPGA-Programmer-Application>`__
    for installation instructions.
 
 -  Terminal application program such as: `putty <https://putty.org/>`__
@@ -117,7 +113,7 @@ This section describes how to build and run the qf_helloworldsw project.
 
     ::
 
-       cd qorc-sdk/qf_apps/qf_helloworldsw/GCC_Project
+       cd Matrix-SDK/qf_apps/qf_helloworldsw/GCC_Project
        make 
 
 2.  | Reset QuickFeather board and press ‘user button’ while blue LED is
@@ -181,7 +177,7 @@ Lesson #1b: M4 only – modify qf_helloworldsw
 --------------------------------------------
 
 1. | Using the editor of your choice, edit
-     ``qorc-sdk/qf_apps/qf_helloworldsw/src/main.c``. Change the line
+     ``Matrix-SDK/qf_apps/qf_helloworldsw/src/main.c``. Change the line
    | ``dbg_str(“\n\nHello world !!\n\n”)``
    | to say something else. Save the changes
 
@@ -189,7 +185,7 @@ Lesson #1b: M4 only – modify qf_helloworldsw
 
    ::
 
-      cd qorc-sdk/qf_apps/qf_helloworldsw/GCC_Project  
+      cd Matrix-SDK/qf_apps/qf_helloworldsw/GCC_Project  
       make
 
 3. Reset QuickFeather board and press ‘user button’ while blue LED is
@@ -410,7 +406,7 @@ project directories, for example qorc-sdk/qf_apps/qf_myapp
     :target: https://travis-ci.com/QuickLogic-Corp/qorc-sdk
 
 
-Using Eclipse to Build/Debug applications
+Using VS Code to Build/Debug applications
 -----------------------------------------
 
 Please refer to `Using Eclipse <https://github.com/QuickLogic-Corp/qorc-sdk/blob/master/using_eclipse.rst>`__ .
