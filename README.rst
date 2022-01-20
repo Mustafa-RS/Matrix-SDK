@@ -2,26 +2,23 @@ Matrix SDK
 ========
 
 Matrix SDK provides components
-needed to get started on the RapidSilicon's Matrix device and open source
-development boards such as Quickfeather.
-
-
-|travis-ci|   |rtd-docs|
+needed to get started on the RapidSilicon's Matrix device and it's open source
+evaluation boards.
 
 
 Currently, the following boards are supported:
 
--  `Quickfeather Development
-   Kit <https://www.quicklogic.com/products/eos-s3/quickfeather-development-kit/>`__
--  `SparkFun Thing Plus - EOS S3
+-  `Quickfeather Development Kit 
+   <https://www.quicklogic.com/products/eos-s3/quickfeather-development-kit/>`__
+-  `SparkFun Thing Plus
    <https://www.sparkfun.com/products/17273/>`__
 
-Getting started on Quickfeather board
+Getting started on Matrix Evaluation Board
 -------------------------------------
 
-Easiest way to get started on quickfeather development kit is to build
+The easiest way to get started on is to build
 and run example application projects included in this SDK on a
-quickfeather development kit.
+Matrix Evaluation Board.
 
 | Clone this Matrix SDK repository using
 | ``git clone --recursive https://github.com/RapidSilicon/Matrix-SDK``
@@ -67,27 +64,30 @@ Toolchain
 
 Utilities
 ~~~~~~~~~
+-  Programming Language: `Python 3.7
+   <https://www.python.org/downloads/release/python-397/>`__
+   or equivalent version
 
--  Flash programmer: TinyFPGA programmer
+-  Flash programmer: TinyFPGA programmer 
 
    Refer to `TinyFPGA
    programmer <https://github.com/RapidSilicon/TinyFPGA-Programmer-Application>`__
    for installation instructions.
 
--  Terminal application program such as: `putty <https://putty.org/>`__
+-  Serial Communication application  such as: `putty <https://putty.org/>`__
 
    ::
 
       sudo apt-get install putty -y
 
--  Miscellaneous: `GNU make
+-  Build System: `GNU make
    3.8.1 <https://sourceforge.net/projects/gnuwin32/files/make/3.81/>`__
    or equivalent
 
 Hardware
 ~~~~~~~~
 
--  Quickfeather development kit
+-  Matrix Evaluation Board
 -  A micro USB cable
 -  [Optional] A serial-to-USB cable
 -  [Optional] `J-Link Debug
@@ -409,4 +409,4 @@ project directories, for example qorc-sdk/qf_apps/qf_myapp
 Using VS Code to Build/Debug applications
 -----------------------------------------
 
-Please refer to `Using Eclipse <https://github.com/QuickLogic-Corp/qorc-sdk/blob/master/using_eclipse.rst>`__ .
+Please refer to `Using VS Code <https://github.com/QuickLogic-Corp/qorc-sdk/blob/master/using_eclipse.rst>`__ .
