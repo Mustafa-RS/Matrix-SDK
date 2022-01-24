@@ -2,7 +2,7 @@ Matrix SDK
 ========
 
 Matrix SDK provides components
-needed to get started on the RapidSilicon's Matrix device and it's open source
+needed to get started on RapidSilicon's Matrix device and it's open source
 evaluation boards.
 
 
@@ -65,16 +65,16 @@ Toolchain
 Utilities
 ~~~~~~~~~
 -  Programming Language: `Python 3.7
-   <https://www.python.org/downloads/release/python-397/>`__
+   <https://www.python.org/downloads/release/python-379/>`__
    or equivalent version
 
--  Flash programmer: TinyFPGA programmer 
+-  Flash Tool: TinyFPGA Programmer 
 
    Refer to `TinyFPGA
    programmer <https://github.com/RapidSilicon/TinyFPGA-Programmer-Application>`__
    for installation instructions.
 
--  Serial Communication application  such as: `putty <https://putty.org/>`__
+-  Serial Communication tool such as: `putty <https://putty.org/>`__
 
    ::
 
